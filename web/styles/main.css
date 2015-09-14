@@ -1,0 +1,88 @@
+/* Copyright Zack Layne */
+
+*{
+    font-family: sans-serif;
+}
+
+.firstLetter:first-letter{
+    font-size: 200%;
+}
+.shadow.orange.italicize.indent{
+
+    text-indent: 50px
+}
+.indent{
+    text-indent: 50px;
+}
+a{
+    color: orange;
+    font-weight: bold;
+}
+li{
+    margin-top: 5px;
+}
+footer{
+    background-color: orange;
+    font-size: 60%;
+    text-align: center;
+    border-top: solid black;
+    margin-bottom: -10px;
+    clear: both;
+}
+
+a:hover{
+    color:green;
+}
+h1{
+    font-size: 200%;
+}
+h2{
+    font-size: 125%;
+}
+h3{
+    font-size: 125%;
+}
+img {
+    float: left;
+}
+#page-wrap{
+    width: 800px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0px 0px 5px 10px black;
+    margin:auto;
+    background-color: white;
+}
+body{
+    
+}
+html{
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+}
+header{
+    border-bottom: solid black;
+    background-color: orange;
+    margin-top: -21px;
+}
+.gradient1{
+    background: linear-gradient(45deg,white,orange,black);
+}
+.gradient2{
+    background: linear-gradient(45deg, black, orange, white);
+}
+#margin{
+    margin: 10px;
+}
+#sidebar{
+    width:160px;
+    float: left;
+    padding-top: 19px;
+}
+#main{
+    width: 620px;
+    float: right;
+}
+.imgPad{
+    margin-right: 450px;
+}
