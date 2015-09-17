@@ -14,12 +14,46 @@
 .indent{
     text-indent: 50px;
 }
-a{
-    color: orange;
-    font-weight: bold;
+.lifloat{
+    float: left;
+    margin: 0px;   
+    background: black;
 }
-li{
-    margin-top: 5px;
+.a:hover{
+    background: gray;
+    color: black;
+}
+.firstAs{
+    color: white;
+    display: block;
+    text-align: center;
+    width: 160px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.secondAs{
+    display: block;
+    height: 40px;
+    margin: 5px;
+    background-color: orange;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    font-weight: bold;
+    border: solid black;
+}
+.a2:hover{
+    color:green;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.liBottom{
+    margin-top: 0px;
+    padding: 5px;
 }
 footer{
     background-color: orange;
@@ -29,9 +63,10 @@ footer{
     margin-bottom: -10px;
     clear: both;
 }
-
-a:hover{
-    color:green;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 h1{
     font-size: 200%;
