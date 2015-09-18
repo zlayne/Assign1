@@ -57,10 +57,6 @@
 .a2:hover{
     color:green;
 }
-a{
-    color: black;
-    text-decoration: none;
-}
 .aBar{
     color: black;
     padding-top:5px;
@@ -129,8 +125,36 @@ header{
 #main{
     width: 620px;
     float: right;
+    
 }
 .imgPad{
     margin-right: 450px;
+}
+.textFormat{
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    margin:10px;
+}
+.productLocal{
+    vertical-align: top;
+}
+.linkPad{
+    padding-bottom: 5px;
+}
+.backColor{
+    background-color: #F5DEB3;
+    text-align: right;
+    padding-right: 3px;
+    padding-left: 20px;
+    vertical-align: top;
+}
+td{
+    padding-right: 75px;
+    padding-top: 10px;
+     
+}
+.leftJust{
+    text-align: left;
 }
 
