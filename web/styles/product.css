@@ -3,7 +3,10 @@
 *{
     font-family: sans-serif;
 }
-
+p{
+    margin-left: 10px;
+    margin-right: 5px;
+}
 .firstLetter:first-letter{
     font-size: 200%;
 }
@@ -105,6 +108,9 @@ html{
     background-image: url("../images/bats.gif");
     background-repeat: repeat;
 }
+.textFloat{
+    margin-left: 180px;
+}
 header{
     border-bottom: solid black;
     background-color: orange;
@@ -119,15 +125,46 @@ header{
 #margin{
     margin: 10px;
 }
-#sidebar{
+#leftSidebar{
     width:160px;
     float: left;
     padding-top: 19px;
 }
 #main{
-    width: 620px;
-    float: right;
+    width: 430px;
+    margin-left: 180px;
+    padding-top: 19px;
+    
 }
 .imgPad{
     margin-right: 450px;
+}
+#rightSidebar{
+    width:180px;
+    float: right;
+    background-color: #F5DEB3;
+    
+}
+.rightfloat{
+    float:right;
+}
+.imgPad2{
+    margin-left: 25px;
+    margin-right: 60px;
+}
+.textMargin{
+    margin-bottom: 20px;
+}
+.thirdAs{
+    color: black;
+    text-decoration: underline;
+    margin-left: 25px;
+    padding-top: 5px;
+}
+.bigText{
+    
+    font-size: 150%;
+}
+.margin{
+    margin-top: 27px; 
 }
